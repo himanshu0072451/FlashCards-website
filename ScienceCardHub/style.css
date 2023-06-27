@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    background-color: rgb(2, 2, 51);
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    /* main {
+      height: auto;
+    } */
+    main {
+     height: 600vh;
+    }
+  
+  
+    nav{
+      flex-direction: column;
+    }
+  
+    .firstsection {
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 40px 0;
+    }
+  
+    .firstsection > div {
+      width: 90% !important;
+      text-align: center;
+    }
+  
+    .rightsec img {
+      width: 100%;
+    }
+    ul{
+        font-size: 25px;
+    }
+  
+    .leftsec {
+      font-size: 1.5rem;
+      width: 100% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* text-align: center; */
+      align-items: center;
+    }
+    .t{
+        padding: 0 40px;
+      }
+  
+    .secondsection {
+      padding-bottom: 150px; /* Increase the padding to create space for the footer */
+    }
+  
+    .secondsection .one {
+      padding-top: 20px;
+      font-size: 1rem;
+    }
+  
+    .flashcards,
+    .flashcards1 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .flashcard {
+      margin: 20px;
+      height: auto;
+      width: 80%;
+    }
+    .flashcardd img {
+      height: 17vh;
+    }
+  
+    button {
+      font-size: 1rem;
+      margin: 30px 0;
+
+
+    footer {
+      position: static; /* Remove the "fixed" position */
+      margin-top: 20px;
+    }
+    .footer-container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .footer-content {
+      margin: 10px 0;
+    } 
+  
+  }
+}
+  
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(2, 2, 51);
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    height: 300vh; /* Adjust the value as needed */
+  }
+  
+  main {
+     padding-bottom: 290vh; /*330 */
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(1, 1, 107);
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(142, 142, 214);
+    font-size: 1.2rem;
+  }
+  
+  .left {
+    font-size: 35px;
+  }
+  .left:hover{
+    color: purple;
+    cursor: pointer;
+  }
+  
+  .firstsection {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+  }
+  
+  .firstsection > div {
+    width: 30%; 
+  }
+  
+  .rightsec img {
+    width: 80%;
+  }
+  .rightsec img:hover{
+     filter: drop-shadow(10px 5px 2px rgb(128, 0, 128));
+     cursor: pointer;
+  }
+  
+  .leftsec {
+    font-size: 2rem;
+  }
+  
+  .Purple {
+    color: blueviolet;
+  }
+  
+  #element {
+    color: blueviolet;
+  }
+  .secondsection {
+    height: 500px;
+  }
+  
+  .one {
+    height: 110px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-top: 2px solid blueviolet;
+    background-color: rgb(2, 2, 51);
+  }
+  
+  .text {
+    font-size: 2rem;
+    color: blueviolet;
+  }
+  
+  .flashcards {
+    display: flex;
+    justify-content: center;
+  }
+  .flashcardss {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flashcard {
+    margin: 35px;
+    height: 30rem;
+    width: 20rem;
+    border: 0.5rem dashed white;
+    font-size: 2.5rem;
+    display: inline-block;
+  }
+  .flashcardd {
+    margin: 35px;
+    height: 30rem;
+    width: 20rem;
+    border: 0.5rem dashed white;
+    font-size: 2.5rem;
+    display: inline-block;
+  }
+  .flashcardd img {
+    margin: 8px 0;
+  }
+  
+  .flashcards1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    border: 5px dashed white;
+    color: blueviolet;
+    background-color: rgb(2, 2, 51);
+    height: 3rem;
+    width: 10rem;
+    cursor: pointer;
+    margin: 51px 0;
+  }
+  button:hover {
+    box-shadow: white;
+    font-size: 1.8rem;
+  }
+  button a {
+    text-decoration: none;
+  }
+  
+  /* CSS code for the footer */
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Add margin to create space between the last object and the footer */
+  }
+  footer {
+    position: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    text-align: center;
+    margin: 0 20px; /* Add spacing between footer content */
+  }
+  
+  .footer-content h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-content a i {
+    color: #4b4b4b;
+    margin-top: 12px;
+    font-size: 40px;
+  }
+  
+  .footer-content a i:hover {
+    color: #000;
+  }
+  
+  .footer-content img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .footer-content img:hover {
+    transform: scale(1.2);
+  }
+
